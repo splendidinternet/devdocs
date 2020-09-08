@@ -2,12 +2,12 @@
 /* CSS Document */
 
 body {
-	 background-color: #ffffff;  margin: 0 auto; font-size:15px; font: 15px/22px 'Poppins' , Arial, sans-serif; color:#5A5A5A; font-weight:normal; width:1024px;
+	 background-color: #ffffff;  margin: 0 auto; font-size:15px; font: 15px/22px 'Poppins' , Arial, sans-serif; color:#5A5A5A; font-weight:normal;
 	}
 
 /* containers */
 #container { width:940px; margin:0; }
-#content { width:940px; margin:15px 45px 0 45px; }
+#content { width:940px; margin:15px auto 0 auto; }
 
 /* left nav style */
 .show {
@@ -694,7 +694,28 @@ a.image:hover {
 	margin-bottom: 0;
 }
 
+.site-title
+{
+  width: 1024px;
+  margin:  auto;
+}
+
 .site-title h4
 {
   float:right;
+}
+
+#footer
+{
+  margin-top: 4em;
+  padding: 1em;
+  width:100%;
+  background-color: #000537;
+  box-sizing: border-box;
+}
+
+#imprint
+{
+  position: absolute;
+  right: 1em; 
 }

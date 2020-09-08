@@ -5,6 +5,8 @@
 title: OpenMage LTS Developer Documentation
 logo: DevDocs
 description: OpenMage LTS Developer Documentation.
+copyright_year: 2020
+imprint_path: /guides/m1x/imprint.html
 
 # the base protocol and domain
 url: https://www.openmage.org/devdocs
